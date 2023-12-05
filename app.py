@@ -2,9 +2,18 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
+@app.route('/', methods=['POST', 'GET'])
+def signup():
+    if request.method == 'POST':
+        pass
+    else:
+        return render_template('sign_up.html')
+
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('indenx2.html')
+
+
 
 @app.route('/signup', methods=['POST'])
 def signup():
