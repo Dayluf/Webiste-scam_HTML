@@ -36,3 +36,24 @@ body{
     margin: auto;
     padding-top: 3rem;
 }
+
+#textcontentheader{
+ font-size: 2rem;
+}
+
+#signupinfo{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.signupinfo2{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.signupbutton{
+    display: block;
+    text-align: right;
+    font-size: 2rem;
+}

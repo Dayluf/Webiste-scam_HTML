@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="java.js"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>index</title>
 </head>
 <body>
     <div class="display">
-        <h1 class="header">Internett scams</h1>
+        <h1 class="header">Internet scams</h1>
     </div>
 
-    <a href="{{ url_for('other') }}">Sign up</a>
+    <a class="signupbutton" href="{{ url_for('signup')}}">Sign up</a>
+    <br>
+    <br>
+   <p id="textcontentheader">text-content</p>
+
 
     </div>
-    <div class="text">What is a internett scam? How does it work,
+    <div class="text">What is a internet scam? How does it work,
         and how can i protect myself against it? These are some common questions.
         We will tell you the answer and also talk about diffrent kind of scams.
     </div>
@@ -24,15 +27,15 @@
     </div>
     <br>
     <br>
-<p class="underheaders">What is a internett scam, and how does it work?</p>
+<p id="section1" class="underheaders">What is a internett scam, and how does it work?</p>
 
-    <div id="section1" class="text">An internet scam is a fraudulent scheme conducted online with the aim of deceiving individuals,
+    <div class="text">An internet scam is a fraudulent scheme conducted online with the aim of deceiving individuals,
         organizations, or businesses for financial gain or other malicious purposes.
         Internet scams come in various forms and can target people through emails, social media, online advertisements,
         websites, or other online platforms. Here are some common types of internet scams and how they work:
     </div>
 
-<p class="underheaders">Different type of scams</p>
+<p id="section2" class="underheaders">Different type of scams</p>
 
     <div class="text">Online scams come in various forms and are constantly evolving as scammers 
         find new ways to exploit technology for their fraudulent activities. Here are some common types of online scams
@@ -65,7 +68,7 @@
 </body>
 </html>
 
-<p class="underheaders">How can i protect myself?</p>
+<p id="section3" class="underheaders">How can i protect myself?</p>
 
     <div class="text">Protecting yourself against internet scams requires a combination of awareness,
         caution, and adopting good cybersecurity practices. Here are some tips to help you minimize the risk of falling victim to internet scams:

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Information</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h2 id="signupinfo">Signup Information</h2>
+
+    <p class="signupinfo2">We have registered the following information</p>
+    <p class="signupinfo2">Username: {{ username }}</p>
+    <p class="signupinfo2">Email: {{ email }}</p>
+    <p class="signupinfo2">Password: *****</p>
+
+    <a class="signupinfo2" href="{{ url_for('index')}}">Home</a>
+
+</body>
+</html>
