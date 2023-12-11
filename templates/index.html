@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script type="module" src="static/java.js"></script>
     <title>index</title>
 </head>
 <body>
+<div class="original-display">
+    <p class="display-buttons">Home</p>
+</div>
     <div class="display">
         <h1 class="header">Internet scams</h1>
-    </div>
-
+</div>
     <a class="signupbutton" href="{{ url_for('signup')}}">Sign up</a>
+    <p id="textcontent">text-contents</p>
+    <br>
+<div class="move">
+    <button class="nobutton">
+    <a class="buttonres" href="#section1" data-scroller="true">what is a internett scam?</a>
+    </button>
     <br>
     <br>
-   <p id="textcontentheader">text-content</p>
-
-
-    </div>
+    <button class="nobutton">
+    <a class="buttonres" href="#section2">different type of scams!</a>
+    </button>
+    <br>
+    <br>
+    <button class="nobutton">
+    <a class="buttonres" href="#section3">How to protect yourself!</a>
+    </button>
+</div>
     <div class="text">What is a internet scam? How does it work,
         and how can i protect myself against it? These are some common questions.
         We will tell you the answer and also talk about diffrent kind of scams.
@@ -32,7 +46,8 @@
     <div class="text">An internet scam is a fraudulent scheme conducted online with the aim of deceiving individuals,
         organizations, or businesses for financial gain or other malicious purposes.
         Internet scams come in various forms and can target people through emails, social media, online advertisements,
-        websites, or other online platforms. Here are some common types of internet scams and how they work:
+        websites, or other online platforms. They often target old people who dont understand or have the knowlegde when it comes to techonolgy.
+        Here are some common types of internet scams and how they work:
     </div>
 
 <p id="section2" class="underheaders">Different type of scams</p>
@@ -42,7 +57,8 @@
         <ul>
             Phishing Scams:
             Description: Scammers create fake websites or emails that mimic legitimate ones to trick individuals 
-            into providing sensitive information, such as usernames, passwords, credit card details, or personal information.
+            into providing sensitive information, such as usernames, passwords, credit card details, or personal information. if they get any information they will use it.
+            either with taking your money or selling you information to companies or individuals.
             Example: Fake emails from banks requesting users to click on a link and enter their login credentials.
             <br>
             <br>
@@ -54,14 +70,15 @@
             <br>
             Romance Scams:
             Description: Scammers build fake online relationships with individuals through dating websites or social media. 
-            Once trust is established, they request money for various reasons.
+            Once trust is established, they request money for various reasons. Some will portaray themselves as rich so the victim
+            thinks it's likely that their money will return after the fake emergency is over. 
             Example: Fake online romances leading to requests for financial assistance due to fabricated crises.
             <br>
             <br>
             Investment Scams:
             Description: Scammers promote fake investment opportunities,promising high returns with little or no risk.
-            Victims invest money but never see the promised returns.
-            Example: Fraudulent investment firms convincing individuals to invest in non-existent or high-return schemes.
+            Victims invest money but never see the promised returns. many famous people have used their audience to their advantage with 
+            investemnt scams. Example: Fraudulent investment firms convincing individuals to invest in non-existent or high-return schemes.
         </ul>
     </div>
 
