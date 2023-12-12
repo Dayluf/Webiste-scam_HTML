@@ -7,29 +7,33 @@
     <script type="module" src="static/java.js"></script>
     <title>index</title>
 </head>
-<body>
+<body>  
 <div class="original-display">
-    <p class="display-buttons">Home</p>
+    <button class="display-buttons">
+        <a href="#intr" data-scroller="true">Home</a>
+    </button>
+    <button>
+        <a class="signupbutton" href="{{ url_for('signup')}}">Sign up</a>
+    </button>
 </div>
     <div class="display">
-        <h1 class="header">Internet scams</h1>
+        <h1 id="intr" class="header">Internet scams</h1>
 </div>
-    <a class="signupbutton" href="{{ url_for('signup')}}">Sign up</a>
-    <p id="textcontent">text-contents</p>
+    
     <br>
 <div class="move">
     <button class="nobutton">
-    <a class="buttonres" href="#section1" data-scroller="true">what is a internett scam?</a>
+        <a class="buttonres" href="#section1" data-scroller="true">what is a internett scam?</a>
     </button>
     <br>
     <br>
     <button class="nobutton">
-    <a class="buttonres" href="#section2">different type of scams!</a>
+        <a class="buttonres" href="#section2">different type of scams!</a>
     </button>
     <br>
     <br>
     <button class="nobutton">
-    <a class="buttonres" href="#section3">How to protect yourself!</a>
+        <a class="buttonres" href="#section3">How to protect yourself!</a>
     </button>
 </div>
     <div class="text">What is a internet scam? How does it work,
